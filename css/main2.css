@@ -1,0 +1,57 @@
+*{
+    margin: 20pt;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(190, 247, 247);
+    font-family: 'Lucida Sans';
+}
+.row-1{
+    background-color: whitesmoke;
+    font-size: medium;
+    padding: 50px;
+    margin: 5pt;
+}
+.row-1 h1{
+    color: rgb(17, 158, 139);
+    line-height: 30pt;
+}
+.row-1 h3{
+    color: rgb(169, 204, 14);
+    line-height: 20pt;
+}
+.row-1 p{
+    color: gray;
+    font-weight: 700;
+    font-size: small;
+    line-height: 20pt;
+}
+.row-2{
+    width: 50px;
+    height: 100px;
+    padding: 20px;
+    color: white;
+}
+.row-2 h3{
+    line-height: 20pt;
+}
+.row-2 p .bigger{
+    font-size: larger;
+    font-weight: bolder;
+}
+.row-2 p{
+    line-height: 15pt;
+    font-size: medium;
+}
+.row-2 input{
+    background-color: rgb(158, 190, 11);
+    color: white;
+    line-height: 10pt;
+    font-size: 16pt;
+    position: relative;
+    border: none;
+    align-self: center;
+    height: 30pt;
+    width: 120pt;
+}
