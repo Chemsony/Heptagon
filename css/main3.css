@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 240, 240);
+}
+.wrapper{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    color: white; 
+    text-align: center;
+}
+.first_class{
+    padding: 30px;
+    background-color: rgb(182, 7, 7);
+    align-items: center;
+}
+.wrapper h2{
+    line-height: 30pt;
+    font-size: 30pt;
+    padding: 10pt;
+}
+.wrapper p{
+    line-height: 20pt;
+    padding: 10pt;
+}
+.second_class{
+    padding: 30px;
+    background-color: rgb(11, 129, 7);
+    align-self: center;
+}
+.third_class{
+    padding: 30px;
+    background-color: rgb(235, 157, 12);
+    align-self: center;
+}
+.know-more{
+    border: 1px solid white;
+    padding: 12px;
+    min-width: 120px;
+    margin: 4px 2px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    border-color: white;
+    
+}
+.first_class button{
+    background-color: rgb(182, 7, 7); 
+}
+.first_class button:hover{
+    background-color: brown;
+    transition: 0.7s;
+}
+.second_class button{
+    background-color: rgb(11, 129, 7); 
+}
+.second_class button:hover{
+    background-color: wheat;
+    transition: 0.7s;
+}
+.third_class button{
+    background-color: rgb(235, 157, 12); 
+}
+.third_class button:hover{
+    background-color: orangered;
+    transition: 0.7s;
+}

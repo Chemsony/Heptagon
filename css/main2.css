@@ -1,50 +1,54 @@
 *{
-    margin: 20pt;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(190, 247, 247);
+    background-color: rgb(223, 240, 240);
     font-family: 'Lucida Sans';
 }
-.row-1{
+.wrapper{
+    margin: auto;
+    width: 50%;
+}
+.first_class{
+    padding: 25px 20px 27px;
     background-color: whitesmoke;
     font-size: medium;
-    padding: 50px;
-    margin: 5pt;
 }
-.row-1 h1{
+.first_class h2{
     color: rgb(17, 158, 139);
-    line-height: 30pt;
+    line-height: 50pt;
 }
-.row-1 h3{
+.first_class h4{
     color: rgb(169, 204, 14);
-    line-height: 20pt;
+    line-height: 35pt;
 }
-.row-1 p{
+.first_class p{
     color: gray;
     font-weight: 700;
     font-size: small;
     line-height: 20pt;
 }
-.row-2{
-    width: 50px;
-    height: 100px;
-    padding: 20px;
-    color: white;
+.second_class{
+    display: flex;
+    flex-direction: row;
+    color: white; 
 }
-.row-2 h3{
-    line-height: 20pt;
+.second_class h4{
+    line-height: 40pt;
 }
-.row-2 p .bigger{
-    font-size: larger;
-    font-weight: bolder;
+.first{
+    background-color: rgb(17, 116, 116); 
+    padding: 30px 20px; 
+    align-items: center;
+    justify-content: center;
 }
-.row-2 p{
+.first p{
     line-height: 15pt;
     font-size: medium;
 }
-.row-2 input{
+.sign-up{
     background-color: rgb(158, 190, 11);
     color: white;
     line-height: 10pt;
@@ -54,4 +58,15 @@ body{
     align-self: center;
     height: 30pt;
     width: 120pt;
+}
+.second ul{
+    list-style-type: none;
+    list-style: none;
+    font-size: 12pt;
+    line-height: 15px;
+    background-color: rgb(24, 167, 167);
+    font-weight: lighter;
+}
+.second{
+    background-color: rgb(24, 167, 167);
 }
