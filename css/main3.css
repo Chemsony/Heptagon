@@ -32,12 +32,12 @@ body{
 .second_class{
     padding: 30px;
     background-color: rgba(11, 129, 7, 0.801);
-    align-self: center;
+    align-self: stretch;
 }
 .third_class{
     padding: 30px;
     background-color: rgba(235, 157, 12, 0.801);
-    align-self: center;
+    align-self: stretch;
 }
 .know-more{
     border: 1px solid white;
@@ -72,4 +72,10 @@ body{
 .third_class button:hover{
     background-color: orangered;
     transition: 0.7s;
+}
+@media only screen and (max-width: 760px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
 }
